@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Dakota Erickson</title>
+</head>
+
+<body>
+    <div class="image-container">
+        <!-- <img src="./family.jpg" alt="Dakota and Family" class="family-picture"> -->
+        <div class="centered">
+            Hi, I'm Dakota Erickson,<br>
+            a <em>software developer</em>
+        </div>
+    </div>
+    <div>
+        <div class="section-heading">
+            <span class="underline">My Path</span>
+        </div>
+    </div>
+    <div>
+        <div class="path-item">
+            <div>
+                <!-- <a href="https://www.freepik.com/vectors/computer">Computer vector created by vectorjuice - www.freepik.com</a> -->
+                <img src="./pictures/Netapp_logo.jpg" alt="NetApp logo" class="logo">
+            </div>
+            <div class="item-text">
+                <div class="company-name">NetApp</div>
+                <div class="position-title">Software Engineer, June 2019 - October 2020</div>
+                <div class="position-description">
+                    <p>
+                        I accepted a position as a full stack software engineer at NetApp after graduating college. I
+                        worked
+                        primarily in Python (Flask) for the back end, and Typescript (Angular) for the front end. I got
+                        exposure to a lot of different technologies during my time at NetApp and I worked as a part of
+                        an
+                        amazing team. We were constantly dealing with shifting priorities and always managed to deliver
+                        on
+                        what was requested of us.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="path-item">
+            <div>
+                <!-- <a href="https://www.freepik.com/vectors/technology">Technology vector created by stories - www.freepik.com</a> -->
+                <img src="./pictures/Ennovar_logo.jpg" alt="Ennovar logo" class="logo">
+            </div>
+            <div class="item-text">
+                <div class="company-name">Ennovar, for NetApp</div>
+                <div class="position-title">Software Contractor, June 2018 - May 2019</div>
+                <div class="position-description">
+                    <p>
+                        During my last year of college I began working as a software contractor at NetApp on behalf of
+                        Ennovar. I was given a number of different projects to work on throughout the year and I learned
+                        a
+                        lot. I had great mentorship and was given a lot of autonomy in solving the problems that were
+                        given
+                        to me. This was my first experience programming professionally and I loved it right away.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="path-item">
+            <div>
+                <!-- <a href="https://www.freepik.com/vectors/abstract">Abstract vector created by vectorjuice - www.freepik.com</a> -->
+                <img src="./pictures/Textron_logo.jpg" alt="Textron logo" class="logo">
+            </div>
+            <div class="item-text">
+                <div class="company-name">Ennovar, for Textron</div>
+                <div class="position-title">Support Contractor, June 2018 - May 2019</div>
+                <div class="position-description">
+                    <p>
+                        During my last two years of college I worked as a support contractor at Textron on behalf of
+                        Ennovar. I was a part of the initial team that ran Textron's walk-in help center called the Help
+                        Hangar. Employees with hardware or software issues could walk in and get help in what was making
+                        them unable to do their jobs. We were very successful and I was able to help train the new team
+                        members that were brought on as a result.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="section-heading">
+            <span class="underline">Projects</span>
+        </div>
+    </div>
+    <div>
+        <div class="path-item">
+            <div class="carousel">
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="./pictures/register_page.JPG" style="width:100%">
+                        <div class="text">Registration Page</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="./pictures/login_page.JPG" style="width:100%">
+                        <div class="text">Login Page</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="./pictures/new_post_page.JPG" style="width:100%">
+                        <div class="text">Create Post Page</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="./pictures/posts_page.JPG" style="width:100%">
+                        <div class="text">View Posts Page</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+            <div class="item-text">
+                <div class="company-name">Blog Website</div>
+                <div class="position-title">Python, HTML, CSS, NGINX, Gunicorn, SQLite</div>
+                <div class="position-description">
+                    <p>
+                        I created a CRUD (Create, Read, Update, Delete) blog website that allows a user to perform every
+                        action one would expect of such a site. I built this as an opportunity to learn how to work with
+                        a database and handle user registration/authentication. A user can create a new post,
+                        edit/delete their previous posts, and view all other posts. Users are blocked from
+                        editting/deleting posts that they didn't create.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+</body>
+
+</html>
