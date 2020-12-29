@@ -1,9 +1,13 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     div.centered {
         font-size: 5vw;
+	top: 80%;
     }
     div.image-container {
-        min-height: 700px;
+	max-width: 800px;
+	min-height: 943px;
+	/* background-image: url("./pictures/mobile_background.jpg"); */
+	background-attachment: scroll;        
     }
     div.section-heading {
         font-size:25px;
