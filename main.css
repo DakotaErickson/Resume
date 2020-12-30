@@ -24,6 +24,9 @@
         width: 150px;
         margin-bottom: 40px;
     }
+    img.github-logo {
+	margin-bottom: 25px;
+    }
     div.company-name {
         font-size: 20px;
     }
