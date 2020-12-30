@@ -148,6 +148,7 @@ a {
 
 .github-container {
   float: right;
+  margin-top: 25px;
 }
 
 .path-item {
@@ -225,6 +226,7 @@ a {
   height:40px;
   width: 160px;
   margin-right: 10px;
+  margin-top: 25px;
 }
 
 .company-name {
