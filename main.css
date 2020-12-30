@@ -125,6 +125,10 @@ a {
   color: white;
 }
 
+.source-code {
+  padding-bottom: 15px;
+}
+
 .contact-text {
   margin-right: 10px;
 }
