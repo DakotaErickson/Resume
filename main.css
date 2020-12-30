@@ -1,12 +1,19 @@
 @media screen and (max-width: 800px){
     div.centered {
-        font-size: 5vw;
-	top: 80%;
+  	color: black;
+  	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+        font-size: 40px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
     }
     div.image-container {
 	max-width: 800px;
 	min-height: 943px;
-	/* background-image: url("./pictures/mobile_background.jpg"); */
+	position: relative;
+	background-image: url("./pictures/mobile_background.jpg");
 	background-attachment: scroll;        
     }
     div.section-heading {
@@ -77,11 +84,11 @@ a {
   }
 
 .centered {
+  color: white;
   position: absolute;
   top: 50%;
   left: 49%;
   transform: translate(-50%, -50%);
-  color: white;
   font-size: 55px;
 }
 
@@ -90,7 +97,6 @@ a {
   height: 100%;
   border-bottom: 5px solid black;
 }
-
 
 .section-heading {
   font: 18px/24px 'opensans-bold', sans-serif;
