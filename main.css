@@ -30,6 +30,9 @@
     div.company-name {
         font-size: 20px;
     }
+    div.project-name{
+      font-size: 20px;
+    }
     div.position-title {
         font-size: 20px;
     }
@@ -76,10 +79,14 @@ a {
   color: white;
 }
 
+p {
+  line-height: 25px;
+}
+
 .image-container {
     text-align: center;
     background-image: url("./pictures/family.jpg");
-    min-height: 1200px;
+    min-height: 900px;
     background-attachment: fixed;
     background-position: 40% 0%;
     background-repeat: no-repeat;
@@ -125,7 +132,7 @@ a {
 
 .download-container {
   display:inline;
-  width: 40%;
+  width: 60%;
   margin-left: 20px;
   margin-bottom: 20px;
 }
@@ -159,7 +166,7 @@ a {
     justify-content: center;
     margin: auto;
     margin-bottom: 80px;
-    width: 40%;
+    width: 60%;
 }
 
 .about-me {
@@ -173,13 +180,14 @@ a {
 }
 
 .about-me-text {
-  width: 40%;
+  width: 60%;
   margin-left: 20px;
   line-height: 30px;
   margin-bottom: 30px;
 }
 
 .project-container {
+  margin-top: 25px;
   background-color: #2B2B2B;
   color: white;
 }
@@ -193,7 +201,11 @@ a {
   flex-direction: column;
   justify-content: center;
   margin: auto;
-  width: 40%;
+  width: 60%;
+}
+
+.project-description {
+  padding-bottom: 10px;
 }
 
 .footer {
@@ -233,7 +245,12 @@ a {
 }
 
 .company-name {
-    font-size: 30px;
+  font-size: 30px;
+}
+
+.project-name{
+  font-size: 30px;
+  width: 200px;
 }
 
 .item-text {
@@ -246,7 +263,7 @@ a {
 
 .link-container {
   display:inline;
-  width: 40%;
+  width: 60%;
 }
 .check-me-out {
   float: right;
