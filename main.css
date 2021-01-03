@@ -86,7 +86,7 @@ p {
 .image-container {
     text-align: center;
     background-image: url("./pictures/family.jpg");
-    min-height: 900px;
+    min-height: 1200px;
     background-attachment: fixed;
     background-position: 40% 0%;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@ p {
     justify-content: center;
     margin: auto;
     margin-bottom: 80px;
-    width: 60%;
+    width: 1017px;
 }
 
 .about-me {
