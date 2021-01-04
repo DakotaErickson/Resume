@@ -1,52 +1,52 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1020px){
     div.centered {
-  	color: black;
-  	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  	-webkit-text-stroke-width: 1px;
-  	-webkit-text-stroke-color: black;
-        font-size: 40px;
-	position: absolute;
-	top: 70%;
-	left: 50%;
+      color: black;
+      -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      font-size: 40px;
+      position: absolute;
+      top: 70%;
+      left: 50%;
     }
     div.image-container {
-	max-width: 800px;
-	min-height: 943px;
-	position: relative;
-	background-image: url("./pictures/mobile_background.jpg");
-	background-attachment: scroll;        
+      max-width: 1019px;
+      min-height: 943px;
+      position: relative;
+      background-image: url("./pictures/mobile_background.jpg");
+      background-attachment: scroll;
+      background-position: 50%;
     }
     div.section-heading {
-        font-size:25px;
+      font-size:25px;
     }
     img.logo {
-        height: 150px;
-        width: 150px;
-        margin-bottom: 40px;
+      display: none;
     }
-    img.github-logo {
-	margin-bottom: 25px;
-    }
+    /* img.github-logo {
+	    margin-bottom: 25px;
+    } */
     div.company-name {
-        font-size: 20px;
+      font-size: 20px;
     }
     div.project-name{
       font-size: 20px;
     }
     div.position-title {
-        font-size: 20px;
+      font-size: 20px;
     }
     div.path-item {
-        width: 90%;
-        flex-direction: column;
-        align-items: center;
+      width: 90%;
+      margin-bottom: 40px;
+      flex-direction: column;
+      align-items: center;
     }
     div.project-item {
       width: 90%;
       align-items: center;
     }
     div.item-text {
-        margin: 0;
+      margin: 0;
     }
     p.about-me-text {
       width: 90%;
@@ -206,6 +206,10 @@ p {
 
 .project-description {
   padding-bottom: 10px;
+}
+
+.technologies {
+  margin-top: 0;
 }
 
 .footer {
