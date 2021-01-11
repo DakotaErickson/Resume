@@ -23,9 +23,6 @@
     img.logo {
       display: none;
     }
-    /* img.github-logo {
-	    margin-bottom: 25px;
-    } */
     div.company-name {
       font-size: 20px;
     }
@@ -180,7 +177,7 @@ p {
 }
 
 .about-me-text {
-  width: 60%;
+  width: 40%;
   margin-left: 20px;
   line-height: 30px;
   margin-bottom: 30px;
