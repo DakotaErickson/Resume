@@ -8,17 +8,21 @@
     <link rel="stylesheet" href="main.css">
     <title>Dakota Erickson</title>
 </head>
-
 <body>
     <div class="image-container">
+        <div class="navigation-links">
+            <a href="#about-me" style="padding-right: 20px;">About</a>
+            <a href="#my-path" style="padding-right: 20px;">My path</a>
+            <a href="#projects">Projects</a>
+        </div>
         <div class="centered">
             Hi, I'm Dakota Erickson,<br>
             a <em>software developer</em>
         </div>
     </div>
-    <div class="about-me">
+    <div id="about-me" class="about-me">
         <div class="section-heading">
-            <span class="underline">About Me</span>
+            <span>About Me</span>
         </div>
         <p class="about-me-text">
             I'm actively looking for my next career opportunity as a software developer.
@@ -52,7 +56,7 @@
     </div>
     <div>
         <div class="section-heading">
-            <span class="underline">My Path</span>
+            <span id="my-path">My Path</span>
         </div>
     </div>
     <div>
@@ -137,7 +141,7 @@
     <div class="project-background">
         <div>
             <div class="project-heading">
-                <span class="underline">Projects</span>
+                <span id="projects">Projects</span>
             </div>
         </div>
         <div class="project-container">
@@ -161,75 +165,97 @@
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="carousel">
-            <!-- Slideshow container -->
-            <div class="slideshow-container">
-                <!-- Full-width images with number and caption text -->
-                <div class="carousel-pictures">
-                    <div class="mySlides fade">
-                        <div class="numbertext">1 / 7</div>
-                        <img src="./pictures/blog/register_page.JPG" alt="Register page"style="width:100%" ;>
-                        <div class="text">Registration</div>
+            <div class="carousel">
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="carousel-pictures">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 7</div>
+                            <img src="./pictures/blog/register_page.JPG" alt="Register page"style="width:100%" ;>
+                            <div class="text">Registration</div>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-pictures">
-                    <div class="mySlides fade">
-                        <div class="numbertext">2 / 7</div>
-                        <img src="./pictures/blog/login_page.JPG" alt="Login page" style="width:100%" ;>
-                        <div class="text">Login</div>
+                    <div class="carousel-pictures">
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 7</div>
+                            <img src="./pictures/blog/login_page.JPG" alt="Login page" style="width:100%" ;>
+                            <div class="text">Login</div>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-pictures">
-                    <div class="mySlides fade">
-                        <div class="numbertext">3 / 7</div>
-                        <img src="./pictures/blog/forgot_password_page.JPG" alt="Forgot password page" style="width:100%" ;>
-                        <div class="text">Forgot Password</div>
+                    <div class="carousel-pictures">
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 7</div>
+                            <img src="./pictures/blog/forgot_password_page.JPG" alt="Forgot password page" style="width:100%" ;>
+                            <div class="text">Forgot Password</div>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-pictures">
-                    <div class="mySlides fade">
-                        <div class="numbertext">4 / 7</div>
-                        <img src="./pictures/blog/update_account_page.JPG" alt="Update account page" style="width:100%" ;>
-                        <div class="text">Account Overview</div>
+                    <div class="carousel-pictures">
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 7</div>
+                            <img src="./pictures/blog/update_account_page.JPG" alt="Update account page" style="width:100%" ;>
+                            <div class="text">Account Overview</div>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-pictures">
-                    <div class="mySlides fade">
-                        <div class="numbertext">5 / 7</div>
-                        <img src="./pictures/blog/new_post_page.JPG" alt="New post page" style="width:100%" ;>
-                        <div class="text">Create Post</div>
+                    <div class="carousel-pictures">
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 7</div>
+                            <img src="./pictures/blog/new_post_page.JPG" alt="New post page" style="width:100%" ;>
+                            <div class="text">Create Post</div>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-pictures">
-                    <div class="mySlides fade">
-                        <div class="numbertext">6 / 7</div>
-                        <img src="./pictures/blog/posts_page.JPG" alt="Posts page" style="width:100%" ;>
-                        <div class="text">View Posts</div>
+                    <div class="carousel-pictures">
+                        <div class="mySlides fade">
+                            <div class="numbertext">6 / 7</div>
+                            <img src="./pictures/blog/posts_page.JPG" alt="Posts page" style="width:100%" ;>
+                            <div class="text">View Posts</div>
+                        </div>
                     </div>
-                </div>
-                <div class="carousel-pictures">
-                    <div class="mySlides fade">
-                        <div class="numbertext">7 / 7</div>
-                        <img src="./pictures/blog/edit_post_page.JPG" alt="Edit post page" style="width:100%" ;>
-                        <div class="text">Edit Post</div>
+                    <div class="carousel-pictures">
+                        <div class="mySlides fade">
+                            <div class="numbertext">7 / 7</div>
+                            <img src="./pictures/blog/edit_post_page.JPG" alt="Edit post page" style="width:100%" ;>
+                            <div class="text">Edit Post</div>
+                        </div>
                     </div>
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                </div>
+    
             </div>
-            <br>
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-                <span class="dot" onclick="currentSlide(7)"></span>
+            <div class="path-item" style="margin-bottom: 0; padding-top: 50px; padding-bottom: 50px;">
+                <div>
+                    <div class="project-name">Chat Application</div>
+                    <p class="technologies">Nodejs, Socket.io, HTML, CSS</p>
+                </div>
+                <div class="item-text">
+                    <div class="project-description">
+                        <span>
+                            I created a real time chat app using Nodejs and a few NPM packages like Socket.io. It allows a client to connect,
+                            enter a username and a room they want to join, and then begin chatting. Usernames are unique to the room, and messages
+                            are only sent to the other users in the same room. It uses the browser's built in geolocation API for sending a
+                            user's location if they allow for it. 
+                        </span>
+                    </div>
+                    <a href="https://erickson-chat-app.herokuapp.com" target="_blank" rel="noopener"> Give it a try →</a>
+                <br>
+                <br>
+                    <a href="https://github.com/DakotaErickson/chatApp" class="source-code" target="_blank" rel="noopener">
+                        Check out the source code →
+                    </a>
+                </div>
             </div>
-
         </div>
     </div>
     <script>
