@@ -98,7 +98,6 @@ p {
   }
 
 .navigation-links {
-  font-variant: small-caps; 
   color: white; 
   float:right;  
   margin-right: 30px; 
@@ -243,9 +242,15 @@ p {
   width: 332px;
 }
 
-.logo {
+.square-logo { 
     height: 200px;
     width: 200px;
+}
+
+.tall-logo {
+  height: 200px;
+  width: 175px;
+  /*margin-right: 25px;*/
 }
 
 .github-logo {
@@ -356,6 +361,11 @@ p {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+  }
+
+  div.netapp-item-text {
+    margin-left: 50px;
+    padding-left: 25px;
   }
   
   .active, .dot:hover {
